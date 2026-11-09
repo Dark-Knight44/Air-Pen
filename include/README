@@ -1,0 +1,23 @@
+# Include
+
+This directory contains header files used by the ESP32 Air Pen firmware.
+
+Header files can be used to organise function declarations, hardware configurations, constants and shared definitions separately from the main application code.
+
+## Purpose
+
+- Store custom header files.
+- Define hardware pin configurations.
+- Declare reusable functions and classes.
+- Organise shared project settings.
+
+## Structure
+
+```text
+include/
+└── README.md
+```
+
+Custom header files can be added here as the project grows.
+
+Currently, the main firmware implementation is maintained in `src/main.cpp`.

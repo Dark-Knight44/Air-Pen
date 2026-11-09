@@ -1,0 +1,32 @@
+# Tests
+
+This directory contains tests for the ESP32 Air Pen firmware.
+
+Testing is intended to verify individual components and ensure reliable operation of the device.
+
+## Testing Areas
+
+- I2C communication with the MPU motion sensor.
+- Gyroscope data acquisition.
+- Gyroscope calibration.
+- Sensor noise and filtering.
+- Push-button input handling.
+- Cursor movement calculations.
+
+## Test Environment
+
+- ESP32 DevKit
+- MPU6050 / MPU6500
+- PlatformIO
+- Arduino Framework
+
+## Running Tests
+
+Run the following command from the project directory:
+
+```bash
+pio test
+```
+
+Tests requiring physical hardware must be performed with the ESP32 and motion sensor connected.
+
